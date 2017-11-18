@@ -41,4 +41,4 @@ function createArray(num){
     
   }
   
-  console.log(calc(10))
+  console.log(calc(100))
