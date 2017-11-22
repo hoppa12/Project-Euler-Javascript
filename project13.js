@@ -101,5 +101,5 @@ const numbers = `37107287533902102798797998220837590246510135740250
 .map(line => parseInt(line))
 .reduce((count,line) => count+line,0)
 
-console.log(numbers.toString().replace(".","").substring(0,10))
+console.log(parseInt(numbers.toString().replace(".","").substring(0,10)))
     
