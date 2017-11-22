@@ -15,7 +15,7 @@ return res
 console.time("test")
 let total = {num:0,sequence:0}
 
-for( var x = 1; x < 1000000;x++){
+for( let x = 1; x < 1000000;x++){
 
     let res = hailStone(x)
    total = total.sequence < res ? {num:x,sequence:res} : total
