@@ -22,7 +22,7 @@ let res = 0
 let count  = 1
 let countOne = 1
 console.time("test")
-while (res <= 501 ){
+while (res <= 500 ){
  
 res =  getFactors(countOne)
 
