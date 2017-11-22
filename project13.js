@@ -105,5 +105,5 @@ const numbers = `37107287533902102798797998220837590246510135740250
 .replace(".","")
 .substring(0,10)
 
-console.log(numbers)
+console.log(parseInt(numbers))
     
