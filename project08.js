@@ -18,11 +18,11 @@ let res = str.match(/\d/g)
   
 if(accum[index-12]!== undefined){
 
-    var res = accum.slice(index-12,index+1)
+    var result = accum.slice(index-12,index+1)
    
     .reduce((resCount,resItem) => resCount * resItem,1)
 
-   accum[index-12] = res
+   accum[index-12] = result
    
 } 
 
